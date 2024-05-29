@@ -4,7 +4,8 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
     integrations: [tailwind()],
 
-base: 'AndreuCecilia.github.io',
+    site: 'https://AndreuCecilia.github.io',
+    base: 'AndreuCecilia.github.io',
 
 });
 
