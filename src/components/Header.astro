@@ -1,0 +1,65 @@
+---
+import Burger from "../components/icons/Burger.astro"
+import Close from "../components/icons/Close.astro"
+---
+
+<header id="header-nav" class="fixed top-0 w-full px-6 py-8 z-50">
+    <!-- Botón de menú para versión móvil -->
+    <button id="menu-open" class="md:hidden flex space-x-16 absolute top-6 right-6">
+        <p class="text-lg">PhD Andreu Cecilia</p>
+        <Burger /> 
+     </button>
+    <nav id="header-menu" class="max-w-7xl mx-auto flex gap-8 fixed w-full h-dvh inset-0 bg-teal-900/90 md:text-xl lg:text-xl flex-col items-center justify-center -translate-y-full transition-transform duration-300 target:translate-y-0 md:static md:h-[initial] md:bg-[initial] md:flex-row md:translate-y-[initial]">
+        
+        <a href="#publications" class="menu-link ">Publications</a>
+        <a href="#teaching" class="menu-link">Teaching</a>
+        <a href="#education" class="menu-link">Education</a>
+        <a href="#projects" class="menu-link">Projects</a>
+        <a href="#students" class="menu-link">Students</a>
+        <a href="#contact" class="menu-link">Contact</a>
+
+        <!-- Botón de cierre del menú para versión móvil -->
+        <button id="menu-close" class="md:hidden absolute top-6 right-6">
+            <Close /> 
+        </button>
+    </nav>
+
+    
+</header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuOpenButton = document.getElementById('menu-open');
+    const menuCloseButton = document.getElementById('menu-close');
+    const headerMenu = document.getElementById('header-menu');
+
+    if (menuOpenButton && menuCloseButton && headerMenu) {
+        menuOpenButton.addEventListener('click', function () {
+            headerMenu.classList.remove('-translate-y-full');
+        });
+
+        menuCloseButton.addEventListener('click', function () {
+            headerMenu.classList.add('-translate-y-full');
+        });
+
+        // Agregar evento de clic a todos los enlaces del menú
+        const menuLinks = document.querySelectorAll('.menu-link');
+        menuLinks.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                // Prevenir el comportamiento predeterminado del enlace
+                event.preventDefault();
+                // Obtener el destino del enlace
+                const target = link.getAttribute('href') ?? '';
+                // Cerrar el menú
+                headerMenu.classList.add('-translate-y-full');
+                // Navegar al destino después de un breve retraso (ajustable según la duración de la animación de cierre del menú)
+                setTimeout(function() {
+                    window.location.href = target;
+                }, 300); // Ajusta este tiempo según la duración de la animación del menú
+            });
+        });
+    }
+});
+    
+</script>
+
