@@ -206,14 +206,19 @@ const { title } = Astro.props;
         }
       }
 
-#topbutton{
-	position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  cursor: pointer;
-  
-}
+	  #topButton {
+		transition: all 0.3s ease-in-out;
+		}
+
+		.hidden {
+		display: none;
+		}
+
+		.fixed {
+		position: fixed;
+		}
+
+
 </style>
 
 

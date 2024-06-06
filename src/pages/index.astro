@@ -13,6 +13,7 @@ import Top from '../components/icons/Top.astro'
 
 ---
 
+
 <Layout title="PhD Andreu Cecilia">
 	<main class="">
 		<Header  />
@@ -24,9 +25,36 @@ import Top from '../components/icons/Top.astro'
 		<Projects  />
 		<Students  />
 		<Contact  />
-		<Top id="topbutton" />
+		
+		<button id="topButton" class="md:flex space-x-16 absolute bottom-6 right-6 p-2 rounded-full shadow-lg" aria-label="Subir arriba">			
+			<Top  />
+		 </button>
 	</main>
 </Layout>
 
 <style>
 </style>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const backToTopButton = document.getElementById('topButton');
+		
+		if (backToTopButton) {
+			window.addEventListener('scroll', function () {
+				if (window.scrollY > 100) {
+					backToTopButton.classList.remove('hidden');
+					backToTopButton.classList.add('flex', 'fixed');
+				} else {
+					backToTopButton.classList.add('hidden');
+					backToTopButton.classList.remove('flex', 'fixed');
+				}
+			});
+			
+			backToTopButton.addEventListener('click', function () {
+				window.scrollTo({ top: 0, behavior: 'smooth' });
+			});
+		}
+	});
+
+	
+	</script>

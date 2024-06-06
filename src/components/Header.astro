@@ -5,7 +5,7 @@ import Close from "../components/icons/Close.astro"
 
 <header id="header-nav" class="fixed top-0 w-full px-6 py-8 z-50">
     <!-- Botón de menú para versión móvil -->
-    <button id="menu-open" class="md:hidden flex space-x-16 absolute top-6 right-6">
+    <button id="menu-open" class="md:hidden flex space-x-16 absolute top-6 right-6" aria-label="Abrir menú">
         <p class="text-lg">PhD Andreu Cecilia</p>
         <Burger /> 
      </button>
@@ -19,7 +19,7 @@ import Close from "../components/icons/Close.astro"
         <a href="#contact" class="menu-link">Contact</a>
 
         <!-- Botón de cierre del menú para versión móvil -->
-        <button id="menu-close" class="md:hidden absolute top-6 right-6">
+        <button id="menu-close" class="md:hidden absolute top-6 right-6" aria-label="Cerrar menú">
             <Close /> 
         </button>
     </nav>
