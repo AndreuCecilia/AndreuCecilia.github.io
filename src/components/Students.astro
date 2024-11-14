@@ -4,100 +4,125 @@ import Bbs from "../components/icons/Bbs.astro"
 import Check from "../components/icons/Check.astro"
 import Loading from "../components/icons/Loading.astro"
 
+// Datos de los estudiantes Ph.D.
+const phdStudents = [
+  {
+    title: "Energy management in hybrid storage systems",
+    years: "2023 - Current",
+    name: "Miquel Martí",
+    program: "Doctoral Programme Automatic Control, Robotics and Vision (UPC)"
+  },
+  {
+    title: "Control-oriented cyber-security in electrical grids",
+    years: "2024 - Current",
+    name: "Pol Baldomà",
+    program: "Doctoral Programme Automatic Control, Robotics and Vision (UPC)"
+  }
+]
 
+// Datos de los estudiantes Bachelor/M.Sc.
+const bachelorStudents = [
+  {
+    title: "Data-based methods for cyber-attack detection",
+    years: "2023-2024",
+    name: "Pol Garcia Coma",
+    program: "ETSEIB-UPC",
+    link: null
+  },
+  {
+    title: "Data-based methods to ensure the safety of cyber-physical systems (CPS) against malicious attacks",
+    years: "2023-2024",
+    name: "Sergi Lupón Santacana",
+    program: "ETSEIB-UPC",
+    link: null
+  },
+  {
+    title: "Leveraging Deep-Learning for Enhanced Soft-Sensor Design in Complex Nonlinear Systems",
+    years: "2023-2024",
+    name: "Aleix Pintó Borrell",
+    program: "ETSEIB-UPC",
+    link: null
+  },
+  {
+    title: "IDinàmica del nervi ciàtic a partir d'ecografies i emprant la tecnologia Dynamic Mode Decomposition",
+    years: "2023-2024",
+    name: "Enric Alavedra Arumí",
+    program: "ETSEIB-UPC",
+    link: null
+  },
+  {
+    title: "Desenvolupament d'un algoritme d'estimació de l'estat de càrrega en bateries de liti",
+    years: "2021-2022",
+    name: "Miguel Aragón Grabiel",
+    program: "ETSEIB-UPC",
+    link: "https://upcommons.upc.edu/handle/2117/368210"
+  },
+  {
+    title: "Estimació d'estats en bateries de liti a través de Filtres de Kalman",
+    years: "2021-2022",
+    name: "Celia Bonillo Mesegue",
+    program: "ETSEIB-UPC",
+    link: "https://upcommons.upc.edu/handle/2117/353078"
+  },
+  {
+    title: "Desenvolupament i aplicació de controladors adaptatius amb identificació dispersa",
+    years: "2021-2022",
+    name: "Andreu Casanovas Vejer",
+    program: "ETSEIB-UPC",
+    link: "https://upcommons.upc.edu/handle/2117/352897"
+  },
+  {
+    title: "Implementació de controladors adaptatius amb identificació dispersa",
+    years: "2021-2022",
+    name: "Roger Domingo Enrich",
+    program: "ETSEIB-UPC",
+    link: "https://upcommons.upc.edu/handle/2117/352112"
+  }
+]
 ---
 
 <section id="students" class="w-full mx-auto lg:w-[1200px] p-10 md:p-14 scroll-m-10">
+  <!-- PhD Students -->
+  <h2 class="text-wrap pl-7 hover:animate-pulse">
+    <span class="flex items-center space-x-2 uppercase">
+      <Phd />
+      <span class="md:pl-0 lg:pl-4">Ph.D. Students</span>
+    </span>
+  </h2>
 
-        <h2 class="text-wrap pl-7 hover:animate-pulse">
-        <span class="flex items-center space-x-2 uppercase ">
-            
-            <Phd />
-                
-            <span class="md:pl-0 lg:pl-4">
-                Ph.D. Students
-            </span> 
-        </span>
-    </h2>
+  <ul class="md:pl-5 lg:pl-10 pt-8">
+    {phdStudents.map(student => (
+      <li class="pt-3">
+        <strong class="text-teal-600/90 flex items-center space-x-2">
+          <Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />
+          {student.title}
+        </strong>
+        <p class="pl-0 md:pl-8 lg:pl-9">
+          <strong>{student.years}</strong> - {student.name} - {student.program}
+        </p>
+      </li>
+    ))}
+  </ul>
 
+  <!-- Bachelor/M.Sc. Students -->
+  <h2 id="projects" class="text-wrap pl-7 pt-16 hover:animate-pulse">
+    <span class="flex items-center space-x-2 uppercase">
+      <Bbs />
+      <span class="md:pl-0 lg:pl-4">Bachelor/M. Sc. Students</span>
+    </span>
+  </h2>
 
-    <ul class="md:pl-5 lg:pl-10 pt-8">
-        <li> <strong class="text-teal-600/90 flex items-center space-x-2">
-            <Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />Energy management in hybrid storage systems</strong> 
-        <li class="pl-0 md:pl-8 lg:pl-9"> 
-            <strong>2023 - Current</strong> Miquel Martí - Doctoral Programme Automatic Control, Robotics and Vision (UPC)</li>
-        
-        
-            <li class="pt-3"> 
-            <strong class="text-teal-600/90 flex items-center space-x-2"><Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />Control-oriented cyber-security in electrical grids</strong> 
-        <li class="pl-0 md:pl-8 lg:pl-9"> <strong>2024 - Current</strong> Pol Baldomà - Doctoral Programme Automatic Control, Robotics and Vision (UPC)</li>
-        
-    </ul>
-
-    <h2 id="projects" class="text-wrap pl-7 pt-16 hover:animate-pulse">
-        <span class="flex items-center space-x-2 uppercase ">
-            
-            <Bbs />
-                
-            <span class="md:pl-0 lg:pl-4">
-                Bachelor/M. Sc. Students
-            </span> 
-        </span>
-    </h2>
-
-    <ul class="md:pl-5 lg:pl-10 pt-8">
-        
-        <li class="pt-3">
-            <strong class="text-teal-600/90 flex items-center space-x-2">
-                <Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />
-                Data-based methods for cyber-attack detection
-            </strong>
-            <p class="pl-0 md:pl-8 lg:pl-9">
-                <strong>2023-2024</strong> Pol, Garcia Coma - ETSEIB-UPC
-            </p>
-        </li>
-    
-        <li class="pt-3">
-            <strong class="text-teal-600/90 flex items-center space-x-2">
-                <Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />
-                Data-based methods to ensure the safety of cyber-physical systems (CPS) against malicious attacks
-            </strong>
-            <p class="pl-0 md:pl-8 lg:pl-9">
-                <strong>2023-2024</strong> - Sergi Lupón Santacana - ETSEIB-UPC
-            </p>
-        </li>
-    
-        <li class="pt-3">
-            <strong class="text-teal-600/90 flex items-center space-x-2">
-                <Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />
-                Leveraging Deep-Learning for Enhanced Soft-Sensor Design in Complex Nonlinear Systems
-            </strong>
-            <p class="pl-0 md:pl-8 lg:pl-9">
-                <strong>2023-2024</strong> - Aleix Pintó Borrell - ETSEIB-UPC
-            </p>
-        </li>
-    
-        <li class="pt-3">
-            <strong class="text-teal-600/90 flex items-center space-x-2">
-                <Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />
-                IDinàmica del nervi ciàtic a partir d'ecografies i emprant la tecnologia Dynamic Mode Decomposition
-            </strong>
-            <p class="pl-0 md:pl-8 lg:pl-9">
-                <strong>2023-2024</strong> - Enric Alavedra Arumí - ETSEIB-UPC
-            </p>
-        </li>
-        <li class="pt-3"> <strong class="text-teal-600 flex items-center space-x-0 md:space-x-1"><Check class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1" /> <a href="https://upcommons.upc.edu/handle/2117/368210"> Desenvolupament d'un algoritme d'estimació de l'estat de càrrega en bateries de liti</a></strong> 
-        <li class="pl-0 md:pl-8 lg:pl-10"> <strong>2021-2022</strong> Miguel Aragón Grabiel - ETSEIB-UPC</li>
-
-        <li class="pt-3"> <strong class=" text-teal-600 flex items-center space-x-0 md:space-x-1"><Check class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1" /> <a href="https://upcommons.upc.edu/handle/2117/353078">Estimació d'estats en bateries de liti a través de Filtres de Kalman</a> </strong> 
-        <li class="pl-0 md:pl-8 lg:pl-10"> <strong>2021-2022</strong> - Celia Bonillo Mesegue - ETSEIB-UPC</li>
-
-        <li class="pt-3"> <strong class="text-teal-600 flex items-center space-x-0 md:space-x-1"><Check class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1" /> <a href="https://upcommons.upc.edu/handle/2117/352897">Desenvolupament i aplicació de controladors adaptatius amb identificació dispersa</a></strong> 
-        <li class="pl-0 md:pl-8 lg:pl-10"> <strong>2021-2022</strong> - Andreu Casanovas Vejer - ETSEIB-UPC</li>
-
-        <li class="pt-3"> <strong class="text-teal-600/90 flex items-center space-x-0 md:space-x-1"><Check class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1" /><a href="https://upcommons.upc.edu/handle/2117/352112"> Implementació de controladors adaptatius amb identificació dispersa</a></strong> 
-        <li class="pl-0 md:pl-8 lg:pl-10"> <strong>2021-2022</strong> - Roger Domingo Enrich - ETSEIB-UPC</li>
-    
-    </ul>
-
+  <ul class="md:pl-5 lg:pl-10 pt-8">
+    {bachelorStudents.map(student => (
+      <li class="pt-3">
+        <strong class="text-teal-600/90 flex items-center space-x-2">
+          {student.link ? <Check class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1" /> : <Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />}
+          {student.link ? <a href={student.link}>{student.title}</a> : student.title}
+        </strong>
+        <p class="pl-0 md:pl-8 lg:pl-9">
+          <strong>{student.years}</strong> - {student.name} - {student.program}
+        </p>
+      </li>
+    ))}
+  </ul>
 </section>
