@@ -1,0 +1,84 @@
+Title: PhD Andreu Cecilia - Automatic Control Researcher at UPC
+Description: Andreu Cecilia, PhD in Automatic Control, Robotics, and Vision, is a researcher at Universitat Politècnica de Catalunya (UPC). Specializing in nonlinear system theory, observers, and their applications in energy systems and cybersecurity.
+
+Biography:
+Andreu Cecilia holds a B.Eng. in Industrial Engineering, a double M.Sc. in Automatic Control and Industrial Engineering, and a PhD in Automatic Control, Robotics, and Vision from UPC. He has worked as a post-doctoral researcher at LAGEPP, Lyon, and currently at UPC. His research focuses on observers, nonlinear systems, energy systems, and cybersecurity.
+
+Publications:
+- Journal Papers:
+  - Blending deep-learning and observers for improved state of charge estimation in vanadium flow batteries (2025)
+  - Nonlinear observer for online concentration estimation in vanadium flow batteries (2024)
+  - Cancelling output disturbances in observer design through internal model filters (2024)
+  - A New Nonlinear Observer for Liquid Water Estimation in Fuel Cells (2024)
+  - Real-time parameter estimation of polymer electrolyte membrane fuel cell (2024)
+  - Estimation of the liquid water saturation in PEM fuel cells (2023)
+  - Vanadium redox flow batteries real-time State of Charge and State of Health estimation (2023)
+  - Modelling and Estimation in Lithium-Ion Batteries: A Literature Review (2023)
+  - Online state of charge estimation for a vanadium redox flow battery (2023)
+  - SoC Estimation in Lithium-Ion Batteries with Noisy Measurements (2023)
+  - Addressing the relative degree restriction in nonlinear adaptive observers (2022)
+  - On Addressing the Security and Stability Issues Due to False Data Injection Attacks (2021)
+  - Nonlinear adaptive observation of the liquid water saturation in polymer electrolyte membrane fuel cells (2021)
+  - Detection and mitigation of false data in cooperative dc microgrids (2021)
+  - High gain observer with dynamic deadzone to estimate liquid water saturation in pem fuel cells (2020)
+  - Optimal energy management in a standalone microgrid (2020)
+
+- Conference Papers:
+  - Quadratic abstractions for k-contraction (2024)
+  - k-contraction analysis for discrete-time systems (2024)
+  - Chaotic Masking Protocol for Secure Communication and Attack Detection (2024)
+  - A masking protocol for private communication and attack detection in nonlinear observers (2023)
+  - LMI conditions for k-contraction analysis (2023)
+  - On state-estimation in weakly-observable scenarios (2021)
+  - SOC and diffusion rate estimation in redox flow batteries (2021)
+  - Library-based adaptive observation through a sparsity-promoting adaptive observer (2021)
+  - PEMFC state and parameter estimation through a high-gain based adaptive observer (2020)
+
+- Books:
+  - Advances in Nonlinear Observer Design for State and Parameter Estimation in Energy Systems (2023)
+
+- Submitted Papers (Under Review):
+  - Generalized Lyapunov conditions for k-contraction (under review)
+  - Dynamic output-feedback design for generalized Lyapunov inequalities (under review)
+
+Teaching:
+- Universitat Politècnica de Catalunya (UPC):
+  - Non linear Control Systems (2024)
+  - Modelling, Identification and Simulation of Dynamical Systems (2023)
+  - Fuel Cells (2023)
+  - Dynamical Systems and Automatic Control (2021-2022)
+
+- Université Claude Bernard Lyon 1:
+  - Automatique 1 and Automatique des Systèmes Dynamiques Linéaires 1 (2023)
+
+Education:
+- PhD in Automatic Control, Robotics, and Vision, UPC (2018-2022)
+- M.Sc. in Industrial Engineering, UPC (2017-2020)
+- M.Sc. in Automatic Control and Robotics, UPC (2017-2020)
+- B.Eng. in Industrial Technology Engineering, UPC (2013-2017)
+
+Projects:
+- SINGLE (Horizon Europe 2021/2027) - Participant (2023-2026)
+- MASHED (Spanish/EU grant) - Participant (2023-2024)
+- MAFALDA (Spanish/EU grant) - Participant (2022-2024)
+- PTI+ TRANS-ENER (Spanish/EU grant) - Participant (2021-2022)
+- DOVELAR (Spanish/EU grant) - Participant (2019-2022)
+
+Ph.D. Students:
+- Energy management in hybrid storage systems (2023 - Current)
+- Control-oriented cyber-security in electrical grids (2024 - Current)
+
+Bachelor/M.Sc. Students:
+- Data-based methods for cyber-attack detection (2023-2024)
+- Data-based methods to ensure the safety of cyber-physical systems (2023-2024)
+- Leveraging Deep-Learning for Enhanced Soft-Sensor Design (2023-2024)
+- IDinàmica del nervi ciàtic a partir d'ecografies (2023-2024)
+- Desenvolupament d'un algoritme d'estimació de l'estat de càrrega en bateries de liti (2021-2022)
+- Estimació d'estats en bateries de liti a través de Filtres de Kalman (2021-2022)
+- Desenvolupament i aplicació de controladors adaptatius amb identificació dispersa (2021-2022)
+- Implementació de controladors adaptatius amb identificació dispersa (2021-2022)
+
+Contact:
+- Email: andreu.cecilia@upc.edu
+- Address: Universitat Politècnica de Catalunya, Avinguda Diagonal, 647, 08028 Barcelona, Spain
+- Phone: (+34) 673 788 202
