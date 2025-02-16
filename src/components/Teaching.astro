@@ -22,8 +22,8 @@ const teaching = [
 ];
 ---
 
-<section id="teaching" class="w-full mx-auto lg:w-[1200px] p-10 md:p-14 scroll-m-10">
-    <h2 class="text-wrap pl-7 hover:animate-pulse">
+<section id="teaching" class="w-full mx-auto pt-10 md:pt-14 scroll-m-10">
+    <h2 class="text-wrap hover:animate-pulse">
         <span class="flex items-center space-x-2 uppercase">
             <Micro />
             <span class="md:pl-0 lg:pl-4">Teaching</span>
@@ -32,13 +32,13 @@ const teaching = [
 
     {teaching.map((institution) => (
         <div>
-            <h3 class="md:pl-4 lg:pl-12 pt-8 pb-4">
+            <h3 class=" pt-8 pb-4">
                 <span class="flex items-center space-x-2">
                     <Check />
                     <span>{institution.university}</span>
                 </span>
             </h3>
-            <ul class="md:pl-5 lg:pl-10">
+            <ul class="">
                 {institution.courses.map((course) => (
                     <li>
                         <strong class="text-white/90">{course.year}</strong> {course.description}

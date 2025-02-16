@@ -41,19 +41,18 @@ const projects = [
 ];
 ---
 
-<section id="projects" class="w-full mx-auto lg:w-[1200px] p-10 md:p-14 scroll-m-10">
-  <h2 class="text-wrap pl-7 hover:animate-pulse">
+<section id="projects" class="w-full mx-auto pt-10 md:pt-14 scroll-m-10">
+  <h2 class="text-wrap hover:animate-pulse">
     <span class="flex items-center space-x-2 uppercase ">
       <List />
       <span class="md:pl-0 lg:pl-4">Projects</span>
     </span>
   </h2>
   
-  <ul class="md:pl-5 lg:pl-10 pt-8">
+  <ul class="">
     {projects.map((project) => (
-      <li class="flex items-center text-teal-600/90">
-        <Check class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8" />
-        <p class="text-white/80 pl-2">
+      <li class=" text-teal-600/90">
+        <p class="text-white/80">
           <strong class="text-teal-600/90 md:text-white/80">{project.name}</strong>
           {project.grant} with {project.institution} - {project.role}
           <strong>{project.year}</strong>

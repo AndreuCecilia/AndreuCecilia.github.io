@@ -106,7 +106,7 @@ const journalPapers = [
 const conferencePapers = [
   {
     title: "Quadratic abstractions for k-contraction",
-    link: null,
+    link: "https://hal.science/hal-04619425/document",
     authors: "Zoboli S., Cecilia, A. & Tarbouriech S. (accepted)",
     conference: "2024 63rd IEEE Conference on Decision and Control (CDC)"
   },
@@ -185,7 +185,7 @@ const submittedPapers = [
 ];
 ---
 
-<section id="publications" class="w-full mx-auto lg:w-[1200px] p-10 md:p-14 scroll-m-10">
+<section id="publications" class="w-full mx-auto scroll-m-10">
   <h2 class="text-wrap pl-7 hover:animate-pulse">
     <span class="flex items-center space-x-2 uppercase">
       <Newspaper class="w-12 h-12" />
@@ -194,13 +194,13 @@ const submittedPapers = [
   </h2>
 
   {/* Journal Papers */}
-  <h3 class="md:pl-4 lg:pl-12 py-8 uppercase ">
+  <h3 class="py-8 uppercase ">
     <span class="flex items-center space-x-2">
       <Check />
       <span>Journal papers</span>
     </span>
   </h3>
-  <ol class="md:pl-5 lg:pl-10 list-decimal">
+  <ol class=" list-decimal">
     {journalPapers.map((item) => (
       <li>
         <a href={item.link}>{item.title}</a>, {item.authors}. <i>{item.journal}</i>
@@ -209,13 +209,13 @@ const submittedPapers = [
   </ol>
 
   {/* Conference Papers */}
-  <h3 class="md:pl-4 lg:pl-12 py-8 uppercase ">
+  <h3 class="py-8 uppercase ">
     <span class="flex items-center space-x-2">
       <Check />
       <span>Conference Papers</span>
     </span>
   </h3>
-  <ol class="md:pl-5 lg:pl-10 list-decimal">
+  <ol class="list-decimal">
     {conferencePapers.map((item) => (
       <li>
         <a href={item.link}>{item.title}</a>, {item.authors}. <i>{item.conference}</i>
@@ -224,13 +224,13 @@ const submittedPapers = [
   </ol>
 
   {/* Books */}
-  <h3 class="md:pl-4 lg:pl-12 py-8 uppercase ">
+  <h3 class="py-8 uppercase ">
     <span class="flex items-center space-x-2">
       <Check />
       <span>Books</span>
     </span>
   </h3>
-  <ol class="md:pl-5 lg:pl-10 list-decimal">
+  <ol class="list-decimal">
     {books.map((item) => (
       <li>
         <a href={item.link}>{item.title}</a>, {item.authors}. <i>{item.publisher}</i>
@@ -239,13 +239,13 @@ const submittedPapers = [
   </ol>
 
   {/* Submitted Papers */}
-  <h3 class="md:pl-4 lg:pl-12 py-8 uppercase ">
+  <h3 class="py-8 uppercase ">
     <span class="flex items-center space-x-2">
       <Loading class="w-8 h-8 animate-spin" />
       <span>Submitted Papers (Under review)</span>
     </span>
   </h3>
-  <ol class="md:pl-5 lg:pl-10 list-decimal">
+  <ol class="list-decimal">
     {submittedPapers.map((item) => (
       <li>
         <a href={item.link}>{item.title}</a>, {item.authors}. <i>{item.journal}</i>
