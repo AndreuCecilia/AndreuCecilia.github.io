@@ -10,7 +10,7 @@
     </h2>
 
 
-    <div class="flex justify-center lg:justify-start pt-4 lg:pt-6">
+    <div class="flex justify-center lg:justify-start items-center pt-4 lg:pt-6 gap-6">
         <a href="mailto:andreu.cecilia@upc.edu" class="group relative inline-flex h-10 lg:h-12 items-center justify-center overflow-hidden rounded-md bg-teal-900/40 px-6 font-light md:font-normal lg:font-medium text-neutral-200 transition hover:scale-110 hover:text-neutral-200">
             <span>andreu.cecilia@upc.edu</span>
             <div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] group-hover:duration-1000 group-hover:[transform:skew(-12deg)_translateX(100%)]">
@@ -18,5 +18,27 @@
                 </div>
             </div>
         </a>
-      </div>
+        <a href="https://scholar.google.es/citations?user=FaRZBMsAAAAJ&hl=es&oi=ao" class="icon">
+            <img src="/img/google-scholar-logo.svg" alt="Google Scholar">
+        </a>
+        <a href="https://www.linkedin.com/in/andreu-cecilia-pi%C3%B1ol-906b151a7" class="icon">
+            <img src="/img/linkedin-logo.svg" alt="LinkedIn">
+        </a>
+        <a href="https://www.researchgate.net/profile/Andreu-Cecilia" class="icon">
+            <img src="/img/researchgate.svg" alt="ResearchGate">
+        </a>    
+    </div>
 </section>
+<style>
+    .icon img {
+        width: 32px;
+        height: 32px;
+        transition: ease-in-out 100ms;
+    }
+    .icon:hover img {
+        transform: scale(1.1);
+    }
+    a.icon {
+        background-image: none !important;
+    }
+</style>
