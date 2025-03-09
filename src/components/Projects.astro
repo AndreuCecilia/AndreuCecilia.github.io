@@ -1,16 +1,23 @@
 ---
 import List from "../components/icons/List.astro"
-import Check from "../components/icons/Check.astro"
 
 // Array de proyectos
 const projects = [
-{
+  {
+    name: "ACROBA",
+    grant: "(Spanish/EU grant)",
+    institution: "UPC/INCIBE",
+    role: "Participant",
+    year: "2024-2025",
+  },
+  {
     name: "SINGLE",
     grant: "(Horizon Eurpe 2021/2027)",
     institution: "European Commission",
     role: "Participant",
     year: "2023-2026",
-  },{
+  },
+  {
     name: "MASHED",
     grant: "(Spanish/EU grant)",
     institution: "UPC",
@@ -53,7 +60,7 @@ const projects = [
     {projects.map((project) => (
       <li class=" text-teal-600/90">
         <p class="text-white/80">
-          <strong class="text-teal-600/90 md:text-white/80">{project.name}</strong>
+          <strong class="text-teal-600/90 md:text-white">{project.name}</strong>
           {project.grant} with {project.institution} - {project.role}
           <strong>{project.year}</strong>
         </p>

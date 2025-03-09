@@ -1,7 +1,6 @@
 ---
 import Phd from "../components/icons/Phd.astro"
 import Bbs from "../components/icons/Bbs.astro"
-import Check from "../components/icons/Check.astro"
 import Loading from "../components/icons/Loading.astro"
 
 // Datos de los estudiantes Ph.D.
@@ -23,32 +22,46 @@ const phdStudents = [
 // Datos de los estudiantes Bachelor/M.Sc.
 const bachelorStudents = [
   {
+    title: "Contraction-based methods for observer design: application to hydrogen fuel cells",
+    years: "2024-2025",
+    name: "Maurizio Roncone",
+    program: "ETSEIB-UPC",
+    link: null
+  },
+  {
+    title: "Analysis of sciatic nerve movement through dynamic mode decomposition",
+    years: "2024-2025",
+    name: "Adrià González Martínez",
+    program: "ETSEIB-UPC",
+    link: null
+  },
+  {
     title: "Data-based methods for cyber-attack detection",
     years: "2023-2024",
     name: "Pol Garcia Coma",
     program: "ETSEIB-UPC",
-    link: null
+    link: "https://upcommons.upc.edu/handle/2117/413710"
   },
   {
     title: "Data-based methods to ensure the safety of cyber-physical systems (CPS) against malicious attacks",
     years: "2023-2024",
     name: "Sergi Lupón Santacana",
     program: "ETSEIB-UPC",
-    link: null
+    link: "https://upcommons.upc.edu/handle/2117/413702"
   },
   {
     title: "Leveraging Deep-Learning for Enhanced Soft-Sensor Design in Complex Nonlinear Systems",
     years: "2023-2024",
     name: "Aleix Pintó Borrell",
     program: "ETSEIB-UPC",
-    link: null
+    link: "https://upcommons.upc.edu/handle/2117/413688"
   },
   {
-    title: "IDinàmica del nervi ciàtic a partir d'ecografies i emprant la tecnologia Dynamic Mode Decomposition",
+    title: "Sciatic Nerve Segmentation and Displacement Evolution with Numerical Methods",
     years: "2023-2024",
     name: "Enric Alavedra Arumí",
     program: "ETSEIB-UPC",
-    link: null
+    link: "https://upcommons.upc.edu/handle/2117/416698"
   },
   {
     title: "Desenvolupament d'un algoritme d'estimació de l'estat de càrrega en bateries de liti",
@@ -97,8 +110,8 @@ const bachelorStudents = [
           <Loading class="hidden md:inline-block w-6 h-6 lg:w-8 lg:h-8 mr-1 animate-spin" />
           {student.title}
         </strong>
-        <p class="">
-          <strong>{student.years}</strong> - {student.name} - {student.program}
+        <p>
+          <strong class="text-white">{student.years}</strong> - {student.name} - {student.program}
         </p>
       </li>
     ))}
@@ -119,8 +132,8 @@ const bachelorStudents = [
           
           {student.link ? <a href={student.link}>{student.title}</a> : student.title}
         </strong>
-        <p class="">
-          <strong>{student.years}</strong> - {student.name} - {student.program}
+        <p>
+          <strong class="text-white">{student.years}</strong> - {student.name} - {student.program}
         </p>
       </li>
     ))}
