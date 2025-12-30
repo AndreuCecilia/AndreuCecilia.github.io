@@ -2,6 +2,9 @@
   "name": "andreuweb2",
   "type": "module",
   "version": "0.0.1",
+   "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "deploy": "astro build && echo. > dist\\.nojekyll && git subtree push --prefix dist origin gh-pages",
     "dev": "astro dev",
