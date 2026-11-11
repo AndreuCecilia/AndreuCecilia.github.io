@@ -81,14 +81,6 @@
       "slug": "mh-tank-soc-2025"
     },
     {
-      "title": "Protocolo de enmascaramiento para observador en pila de combustible",
-      "link": "https://doi.org/10.4995/riai.2024.21924",
-      "authors": "Baldomà Mitjans, P., Cecilia, A., Costa-Castelló, R. (2025)",
-      "journal": "Revista Iberoamericana de Automática e Informática Industrial",
-      "year": 2025,
-      "slug": "masking-fuel-cell-riai-2025"
-    },
-    {
       "title": "Nonlinear observer for online concentration estimation in vanadium flow batteries based on half-cell voltage measurements",
       "link": "https://doi.org/10.1016/j.compchemeng.2024.108664",
       "authors": "Puleston, T.P., Cecilia, A., Costa-Castelló, R., Serra Prat, M. (2024)",
@@ -201,14 +193,6 @@
       "slug": "adaptive-obs-liquid-water-pemfc-2021"
     },
     {
-      "title": "High gain observer with dynamic deadzone to estimate liquid water saturation in pem fuel cells",
-      "link": "https://doi.org/10.4995/riai.2019.11161",
-      "authors": "Cecilia, A., Costa-Castelló, R. (2020)",
-      "journal": "Revista iberoamericana de automática e informática industrial",
-      "year": 2020,
-      "slug": "observador-de-alta-ganancia-con-zona-muerta-2020"
-    },
-    {
       "title": "Optimal energy management in a standalone microgrid, with photovoltaic generation, short-term storage, and hydrogen production",
       "link": "https://doi.org/10.3390/en13061454",
       "authors": "Cecilia, A., Carroquino, J., Roda Serrat, V., Costa-Castelló, R., Barreras Toledo, F.M. (2020)",
@@ -289,14 +273,6 @@
       "slug": "masking-nonlinear-observers-cdc-2023"
     },
     {
-      "title": "Estimación del estado de carga de baterías de  flujo redox con caudales desequilibrados",
-      "link": "https://doi.org/10.17979/spudc.9788497498418.0353",
-      "authors": "Clemente León, A., Cecilia, A., Costa-Castelló, R. (2022)",
-      "conference": "Jornadas de Automática",
-      "year": 2022,
-      "slug": "estimaci-n-del-estado-de-carga-de-2022"
-    },
-    {
       "title": "SOC and diffusion rate estimation in redox flow batteries: an I&I-based high-gain observer approach",
       "link": "https://doi.org/10.23919/ECC54610.2021.9654894",
       "authors": "Clemente León, A., Cecilia, A., Costa-Castelló, R. (2021)",
@@ -321,36 +297,12 @@
       "slug": "on-state-estimation-in-weakly-observable-scenarios-2021"
     },
     {
-      "title": "Estimación del estado de carga y coeficientes de difusión en baterías de flujo redox",
-      "link": "https://doi.org/10.17979/spudc.9788497498043.357",
-      "authors": "Clemente León, A., Cecilia, A., Costa-Castelló, R. (2021)",
-      "conference": "Jornadas de Automática",
-      "year": 2021,
-      "slug": "estimaci-n-del-estado-de-carga-y-2021"
-    },
-    {
-      "title": "Control no lineal adaptativo con identificación dispersa",
-      "link": "https://doi.org/10.17979/spudc.9788497498043.365",
-      "authors": "Domingo-Enrich, R., Cecilia, A., Costa-Castelló, R. (2021)",
-      "conference": "Jornadas de Automática",
-      "year": 2021,
-      "slug": "control-no-lineal-adaptativo-con-identificaci-n-2021"
-    },
-    {
       "title": "PEMFC state and parameter estimation through a high-gain based adaptive observer",
       "link": "https://doi.org/10.1016/j.ifacol.2020.12.1639",
       "authors": "Cecilia, A., Serra Prat, M., Costa-Castelló, R. (2020)",
       "conference": "IFAC-PapersOnLine",
       "year": 2020,
       "slug": "pemfc-state-and-parameter-estimation-through-a-2020"
-    },
-    {
-      "title": "Observador de alta ganancia con zona muerta para pilas de combustible PEM de cátodo abierto",
-      "link": "https://doi.org/10.17979/spudc.9788497497169.382",
-      "authors": "Cecilia, A., Costa-Castelló, R. (2019)",
-      "conference": "Jornadas de Automática",
-      "year": 2019,
-      "slug": "observador-de-alta-ganancia-con-zona-2019"
     }
   ],
   "books": [
