@@ -19,8 +19,9 @@ import projects from "../data/projects.json";
       <li class=" text-teal-600/90">
         <p class="text-white/80">
           <strong class="text-teal-600/90 md:text-white">{project.name}</strong>
-          {project.grant} with {project.institution} - {project.role}
-          <strong>{project.year}</strong>
+          {project.title && <span> — {project.title}</span>}.
+          {project.funding && <span class="text-white/60"> {project.funding}.</span>}
+          {" "}{project.role} <strong>{project.year}</strong>
         </p>
       </li>
     ))}

@@ -1,43 +1,86 @@
 [
   {
-    "name": "ACROBA",
-    "grant": "(Spanish/EU grant)",
-    "institution": "UPC/INCIBE",
+    "name": "COUPLE",
+    "title": "Coupled Membranes for Ammonia Cracking to Compressed Hydrogen",
+    "funding": "European Union — Horizon Europe / Clean Hydrogen Joint Undertaking · Grant 101251455",
     "role": "Participant",
-    "year": "2024-2025"
+    "year": "2026-2028",
+    "slug": "couple-membranes-ammonia"
+  },
+  {
+    "name": "Development and implementation of monitoring and control systems for large-scale vanadium redox-flow batteries",
+    "title": "",
+    "funding": "Agencia Estatal de Investigación (MICIU/AEI) — Proof of Concept · PDC2025-165204-C22",
+    "role": "Participant",
+    "year": "2026-2028",
+    "slug": "monitoring-control-largescale-vrfb"
+  },
+  {
+    "name": "DECODER",
+    "title": "Monitoring and control to optimise efficiency and prevent degradation in vanadium redox-flow batteries",
+    "funding": "Agencia Estatal de Investigación (MICIU/AEI) — Plan Estatal 2024–2027 · PID2024-158394OB-C22",
+    "role": "Participant",
+    "year": "2025-2028",
+    "slug": "decoder-vrfb"
+  },
+  {
+    "name": "ACROBA",
+    "title": "Advances in Cybersecurity in Smart Electrical Grids through Observers and Deep Learning",
+    "funding": "Spanish Strategic Project (Proyecto Estratégico)",
+    "role": "Participant",
+    "year": "2024-2025",
+    "slug": "acroba-cybersecurity-smart-grids"
   },
   {
     "name": "SINGLE",
-    "grant": "(Horizon Eurpe 2021/2027)",
-    "institution": "European Commission",
+    "title": "Electrified Single Stage Ammonia Cracking to Compressed Hydrogen",
+    "funding": "European Union — Horizon Europe / Clean Hydrogen Joint Undertaking · Grant 101112144",
     "role": "Participant",
-    "year": "2023-2026"
+    "year": "2023-2026",
+    "slug": "single-pcer"
   },
   {
     "name": "MASHED",
-    "grant": "(Spanish/EU grant)",
-    "institution": "UPC",
+    "title": "",
+    "funding": "Spanish/EU grant",
     "role": "Participant",
     "year": "2023-2024"
   },
   {
+    "name": "Efficient Management of Energy Systems including Hybrid Electrochemical Energy Storage through Digitalization Techniques",
+    "title": "",
+    "funding": "",
+    "role": "Participant",
+    "year": "2022",
+    "slug": "efficient-energy-hybrid-storage-digitalization"
+  },
+  {
+    "name": "Estimation and Control in Vanadium Redox Flow Batteries",
+    "title": "",
+    "funding": "Coordinated research project (UPC · LIFTEC · UCH)",
+    "role": "Participant",
+    "year": "2022",
+    "slug": "vrfb-estimation-control"
+  },
+  {
     "name": "MAFALDA",
-    "grant": "(Spanish/EU grant)",
-    "institution": "UPC",
+    "title": "",
+    "funding": "Spanish/EU grant",
     "role": "Participant",
     "year": "2022-2024"
   },
   {
     "name": "PTI+ TRANS-ENER",
-    "grant": "(Spanish/EU grant)",
-    "institution": "UPC",
+    "title": "Manufacturing of the 50 W Redox Flow Battery Module",
+    "funding": "CSIC — Interdisciplinary Thematic Platform (PTI+)",
     "role": "Participant",
-    "year": "2021-2022"
+    "year": "2021-2022",
+    "slug": "bfr-50w-module"
   },
   {
     "name": "DOVELAR",
-    "grant": "(Spanish/EU grant)",
-    "institution": "UPC",
+    "title": "",
+    "funding": "Spanish/EU grant",
     "role": "Participant",
     "year": "2019-2022"
   }

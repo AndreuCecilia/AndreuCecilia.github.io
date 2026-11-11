@@ -1,88 +1,118 @@
 {
-  "phdStudents": [
-    {
-      "title": "Energy management in hybrid storage systems",
-      "years": "2023 - Current",
-      "name": "Miquel Martí",
-      "program": "Doctoral Programme Automatic Control, Robotics and Vision (UPC)"
-    },
+  "currentPhdStudents": [
     {
       "title": "Control-oriented cyber-security in electrical grids",
       "years": "2024 - Current",
       "name": "Pol Baldomà",
-      "program": "Doctoral Programme Automatic Control, Robotics and Vision (UPC)"
+      "program": "Doctoral Programme Automatic Control, Robotics and Vision (UPC)",
+      "link": ""
+    }
+  ],
+  "formerPhdStudents": [
+    {
+      "title": "Regression-based estimation of internal variables in lithium-ion batteries",
+      "years": "2023 - 2026",
+      "name": "Miquel Martí",
+      "program": "Doctoral Programme Automatic Control, Robotics and Vision (UPC)",
+      "link": ""
     }
   ],
   "bachelorStudents": [
     {
+      "title": "Recurrent neural networks (REN) for data-driven non-linear observer design",
+      "years": "2025-2026",
+      "name": "Bonifác Lukács Faucher-Timár",
+      "program": "M.Sc. thesis · Master's Degree in Automatic Control and Robotics (UPC)",
+      "link": "https://hdl.handle.net/2117/473863",
+      "year": 2026
+    },
+    {
+      "title": "Online feedback optimization for safe and optimal control of an ammonia cracking reactor",
+      "years": "2025-2026",
+      "name": "Pablo Herreros Carmona",
+      "program": "M.Sc. thesis · Master's Degree in Industrial Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/464654",
+      "year": 2026
+    },
+    {
       "title": "Contraction-based methods for observer design: application to hydrogen fuel cells",
       "years": "2024-2025",
       "name": "Maurizio Roncone",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/entities/publication/18984120-2f58-4d6c-82ce-8e05cf0e5530"
+      "program": "M.Sc. thesis · Master's Degree in Automatic Control and Robotics (UPC)",
+      "link": "https://hdl.handle.net/2117/442171",
+      "year": 2025
     },
     {
       "title": "Analysis of sciatic nerve movement through dynamic mode decomposition",
       "years": "2024-2025",
       "name": "Adrià González Martínez",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/entities/publication/594b9e37-c339-443c-8647-726a67e7f567"
-    },
-    {
-      "title": "Data-based methods for cyber-attack detection",
-      "years": "2023-2024",
-      "name": "Pol Garcia Coma",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/handle/2117/413710"
-    },
-    {
-      "title": "Data-based methods to ensure the safety of cyber-physical systems (CPS) against malicious attacks",
-      "years": "2023-2024",
-      "name": "Sergi Lupón Santacana",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/handle/2117/413702"
-    },
-    {
-      "title": "Leveraging Deep-Learning for Enhanced Soft-Sensor Design in Complex Nonlinear Systems",
-      "years": "2023-2024",
-      "name": "Aleix Pintó Borrell",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/handle/2117/413688"
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technology Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/440040",
+      "year": 2025
     },
     {
       "title": "Sciatic Nerve Segmentation and Displacement Evolution with Numerical Methods",
       "years": "2023-2024",
       "name": "Enric Alavedra Arumí",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/handle/2117/416698"
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technologies and Economic Analysis (UPC)",
+      "link": "https://hdl.handle.net/2117/416698",
+      "year": 2024
+    },
+    {
+      "title": "Data-based methods for cyber-attack detection",
+      "years": "2023-2024",
+      "name": "Pol Garcia Coma",
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technology Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/413710",
+      "year": 2024
+    },
+    {
+      "title": "Data-based methods to ensure the safety of cyber-physical systems (CPS) against malicious attacks",
+      "years": "2023-2024",
+      "name": "Sergi Lupón Santacana",
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technology Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/413702",
+      "year": 2024
+    },
+    {
+      "title": "Leveraging Deep-Learning for Enhanced Soft-Sensor Design in Complex Nonlinear Systems",
+      "years": "2023-2024",
+      "name": "Aleix Pintó Borrell",
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technology Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/413688",
+      "year": 2024
     },
     {
       "title": "Desenvolupament d'un algoritme d'estimació de l'estat de càrrega en bateries de liti",
       "years": "2021-2022",
-      "name": "Miguel Aragón Grabiel",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/handle/2117/368210"
+      "name": "Miquel Aragón Grabiel",
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technology Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/368210",
+      "year": 2022
     },
     {
       "title": "Estimació d'estats en bateries de liti a través de Filtres de Kalman",
-      "years": "2021-2022",
+      "years": "2020-2021",
       "name": "Celia Bonillo Mesegue",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/handle/2117/353078"
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technology Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/353078",
+      "year": 2021
     },
     {
       "title": "Desenvolupament i aplicació de controladors adaptatius amb identificació dispersa",
-      "years": "2021-2022",
+      "years": "2020-2021",
       "name": "Andreu Casanovas Vejer",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/handle/2117/352897"
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technology Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/352897",
+      "year": 2021
     },
     {
       "title": "Implementació de controladors adaptatius amb identificació dispersa",
-      "years": "2021-2022",
+      "years": "2020-2021",
       "name": "Roger Domingo Enrich",
-      "program": "ETSEIB-UPC",
-      "link": "https://upcommons.upc.edu/handle/2117/352112"
+      "program": "Bachelor thesis · Bachelor's Degree in Industrial Technology Engineering (UPC)",
+      "link": "https://hdl.handle.net/2117/352112",
+      "year": 2021
     }
   ]
 }
