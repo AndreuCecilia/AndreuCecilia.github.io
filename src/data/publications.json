@@ -1,0 +1,374 @@
+{
+  "journalPapers": [
+    {
+      "title": "Informativeness-aware moving horizon estimation for temperature-only monitoring of an open-cathode PEM fuel cell",
+      "link": "https://doi.org/10.1016/j.compchemeng.2026.109867",
+      "authors": "Sun, R., Cecilia, A., Costa-Castelló, R., Na, J. (2027)",
+      "journal": "Computers & chemical engineering",
+      "year": 2027,
+      "slug": "informativeness-aware-moving-horizon-estimation-for-2027"
+    },
+    {
+      "title": "A switching high-gain observer approach for estimating the state of charge of metal hydride storage tanks",
+      "link": "https://doi.org/10.1016/j.est.2026.124863",
+      "authors": "Chen, M., Cecilia, A., Na, J., Batlle Arnau, C., Costa-Castelló, R. (2026)",
+      "journal": "Journal of energy storage",
+      "year": 2026,
+      "slug": "a-switching-high-gain-observer-approach-2026"
+    },
+    {
+      "title": "A modular control architecture for safe and efficient operation of vanadium flow batteries under dynamic current profiles",
+      "link": "https://doi.org/10.1016/j.jpowsour.2026.241290",
+      "authors": "Puleston, T.P., Cecilia, A., Escachx Estevez, B., Costa-Castelló, R., Serra Prat, M. (2026)",
+      "journal": "Journal of power sources",
+      "year": 2026,
+      "slug": "a-modular-control-architecture-for-safe-2026"
+    },
+    {
+      "title": "Certified moving horizon estimation for nonlinear systems with application to PEM fuel-cell monitoring",
+      "link": "https://doi.org/10.1016/j.conengprac.2026.107145",
+      "authors": "Sun, R., Cecilia, A., Costa-Castelló, R., Na, J. (2026)",
+      "journal": "Control engineering practice",
+      "year": 2026,
+      "slug": "certified-moving-horizon-estimation-for-nonlinear-2026"
+    },
+    {
+      "title": "Generalized Lyapunov conditions for k-contraction: analysis and feedback design",
+      "link": "https://doi.org/10.1109/TAC.2025.3605299",
+      "authors": "Cecilia, A., Zoboli, S., Astolfi, D., Serres, U., Andrieu, V. (2025)",
+      "journal": "IEEE Transactions on Automatic Control",
+      "year": 2025,
+      "slug": "k-contraction-lyapunov-2025"
+    },
+    {
+      "title": "Kazantzis-Kravaris/Luenberger observer for the joint estimation of vanadium flow battery concentrations and side-reaction rates",
+      "link": "https://doi.org/10.1016/j.est.2025.118760",
+      "authors": "Puleston, T.P., Cecilia, A., Clemente León, A., Costa-Castelló, R., Serra Prat, M. (2025)",
+      "journal": "Journal of Energy Storage, 118760",
+      "year": 2025,
+      "slug": "kkl-observer-vrfb-2025"
+    },
+    {
+      "title": "OCV estimation in electrochemical batteries with an unknown linear model and finite excitation",
+      "link": "https://doi.org/10.1016/j.est.2025.117665",
+      "authors": "Martí Florences, M., Cecilia, A., Ortega, R., Bobtsov, A., Costa-Castelló, R. (2025)",
+      "journal": "Journal of Energy Storage, 117665",
+      "year": 2025,
+      "slug": "ocv-estimation-batteries-2025"
+    },
+    {
+      "title": "Control-oriented modeling and observation of a single cell proton ceramic electrochemical reactor for single-stage ammonia cracking to compressed hydrogen",
+      "link": "https://doi.org/10.1016/j.ijhydene.2025.150557",
+      "authors": "Cecilia, A., Catalán Martínez, D., Escolástico, S., Serra Prat, M., Serra, J.M. (2025)",
+      "journal": "International Journal of Hydrogen Energy, 150557",
+      "year": 2025,
+      "slug": "control-model-pcer-2025"
+    },
+    {
+      "title": "A masking protocol for nonlinear and incrementally passive average consensus algorithms",
+      "link": "https://doi.org/10.1109/LCSYS.2025.3585996",
+      "authors": "Baldomà Mitjans, P., Cecilia, A., Casadei, G., Astolfi, D., Puig Cayuela, V. (2025)",
+      "journal": "IEEE Control Systems Letters",
+      "year": 2025,
+      "slug": "masking-consensus-2025"
+    },
+    {
+      "title": "Metal hydride storage tank state of charge estimation: a switched observer approach",
+      "link": "https://doi.org/10.1109/TCST.2025.3605666",
+      "authors": "Chen, M., Cecilia, A., Na, J., Batlle Arnau, C., Costa-Castelló, R. (2025)",
+      "journal": "IEEE Transactions on Control Systems Technology",
+      "year": 2025,
+      "slug": "mh-tank-soc-2025"
+    },
+    {
+      "title": "Protocolo de enmascaramiento para observador en pila de combustible",
+      "link": "https://doi.org/10.4995/riai.2024.21924",
+      "authors": "Baldomà Mitjans, P., Cecilia, A., Costa-Castelló, R. (2025)",
+      "journal": "Revista Iberoamericana de Automática e Informática Industrial",
+      "year": 2025,
+      "slug": "masking-fuel-cell-riai-2025"
+    },
+    {
+      "title": "Nonlinear observer for online concentration estimation in vanadium flow batteries based on half-cell voltage measurements",
+      "link": "https://doi.org/10.1016/j.compchemeng.2024.108664",
+      "authors": "Puleston, T.P., Cecilia, A., Costa-Castelló, R., Serra Prat, M. (2024)",
+      "journal": "Computers & Chemical Engineering, 108664",
+      "year": 2024,
+      "slug": "observer-vrfb-concentrations-2024"
+    },
+    {
+      "title": "Real-time parameter estimation of polymer electrolyte membrane fuel cell in absence of excitation",
+      "link": "https://doi.org/10.1016/j.ijhydene.2023.08.041",
+      "authors": "Cecilia, A., Serra Prat, M., Costa-Castelló, R. (2024)",
+      "journal": "International Journal of Hydrogen Energy",
+      "year": 2024,
+      "slug": "param-estimation-pemfc-2024"
+    },
+    {
+      "title": "Canceling output disturbances in observer design through internal model filters",
+      "link": "https://doi.org/10.1016/j.automatica.2024.111529",
+      "authors": "Cecilia, A., Astolfi, D., Bin, M., Costa-Castelló, R. (2024)",
+      "journal": "Automatica, 111529",
+      "year": 2024,
+      "slug": "cancel-output-disturbances-2024"
+    },
+    {
+      "title": "A new nonlinear observer for liquid water estimation in fuel cells",
+      "link": "https://doi.org/10.1109/TCST.2023.3337512",
+      "authors": "Cecilia, A., Astolfi, D., Costa-Castelló, R. (2024)",
+      "journal": "IEEE Transactions on Control Systems Technology",
+      "year": 2024,
+      "slug": "liquid-water-pemfc-2021"
+    },
+    {
+      "title": "Blending deep-learning and observers for improved state of charge estimation in vanadium flow batteries",
+      "link": "https://doi.org/10.1016/j.isatra.2024.12.015",
+      "authors": "Clemente León, A., Puleston, T.P., Cecilia, A., Costa-Castelló, R., Trilla Romero, L. (2024)",
+      "journal": "ISA transactions",
+      "year": 2024,
+      "slug": "blending-deep-learning-and-observers-for-improved-2024"
+    },
+    {
+      "title": "SoC estimation in lithium-ion batteries with noisy measurements and absence of excitation",
+      "link": "https://doi.org/10.3390/batteries9120578",
+      "authors": "Martí Florences, M., Cecilia, A., Clemente León, A., Costa-Castelló, R. (2023)",
+      "journal": "Batteries, 9, 578",
+      "year": 2023,
+      "slug": "soc-lithium-2023"
+    },
+    {
+      "title": "Modelling and estimation in lithium-ion batteries: a literature review",
+      "link": "https://doi.org/10.3390/en16196846",
+      "authors": "Martí Florences, M., Cecilia, A., Costa-Castelló, R. (2023)",
+      "journal": "Energies, 16, 6846",
+      "year": 2023,
+      "slug": "review-li-ion-2023"
+    },
+    {
+      "title": "Vanadium redox flow batteries real-time State of Charge and State of Health estimation under electrolyte imbalance condition",
+      "link": "https://doi.org/10.1016/j.est.2023.107666",
+      "authors": "Puleston, T.P., Cecilia, A., Costa-Castelló, R., Serra Prat, M. (2023)",
+      "journal": "Journal of Energy Storage, 107666",
+      "year": 2023,
+      "slug": "vrfb-soc-soh-2023"
+    },
+    {
+      "title": "Estimation of the liquid water saturation in PEM fuel cells: a low-power peaking-free dead-zone observer approach",
+      "link": "https://doi.org/10.1016/j.isatra.2023.05.026",
+      "authors": "Cecilia, A., Costa-Castelló, R. (2023)",
+      "journal": "ISA Transactions",
+      "year": 2023,
+      "slug": "liquid-water-peakingfree-2023"
+    },
+    {
+      "title": "Online state of charge estimation for a vanadium redox flow battery with unequal flow rates",
+      "link": "https://doi.org/10.1016/j.est.2022.106503",
+      "authors": "Clemente León, A., Cecilia, A., Costa-Castelló, R. (2023)",
+      "journal": "Journal of Energy Storage, 106503",
+      "year": 2023,
+      "slug": "soc-vrfb-unequal-flow-2023"
+    },
+    {
+      "title": "Addressing the relative degree restriction in nonlinear adaptive observers: a high-gain observer approach",
+      "link": "https://doi.org/10.1016/j.jfranklin.2022.03.020",
+      "authors": "Cecilia, A., Costa-Castelló, R. (2022)",
+      "journal": "Journal of the Franklin Institute",
+      "year": 2022,
+      "slug": "adaptive-observer-relative-degree-2022"
+    },
+    {
+      "title": "On addressing the security and stability issues due to false data injection attacks in DC microgrids: an adaptive observer approach",
+      "link": "https://doi.org/10.1109/TPEL.2021.3114990",
+      "authors": "Cecilia, A., Sahoo, S., Dragicevic, T., Costa-Castelló, R., Blaabjerg, F. (2022)",
+      "journal": "IEEE Transactions on Power Electronics",
+      "year": 2022,
+      "slug": "false-data-dc-microgrids-2022"
+    },
+    {
+      "title": "Detection and mitigation of false data in cooperative DC microgrids with unknown constant power loads",
+      "link": "https://doi.org/10.1109/TPEL.2021.3053845",
+      "authors": "Cecilia, A., Sahoo, S., Dragicevic, T., Costa-Castelló, R., Blaabjerg, F. (2021)",
+      "journal": "IEEE Transactions on Power Electronics",
+      "year": 2021,
+      "slug": "false-data-dc-microgrids-2021"
+    },
+    {
+      "title": "Nonlinear adaptive observation of the liquid water saturation in polymer electrolyte membrane fuel cells",
+      "link": "https://doi.org/10.1016/j.jpowsour.2021.229641",
+      "authors": "Cecilia, A., Serra Prat, M., Costa-Castelló, R. (2021)",
+      "journal": "Journal of Power Sources, 229641",
+      "year": 2021,
+      "slug": "adaptive-obs-liquid-water-pemfc-2021"
+    },
+    {
+      "title": "High gain observer with dynamic deadzone to estimate liquid water saturation in pem fuel cells",
+      "link": "https://doi.org/10.4995/riai.2019.11161",
+      "authors": "Cecilia, A., Costa-Castelló, R. (2020)",
+      "journal": "Revista iberoamericana de automática e informática industrial",
+      "year": 2020,
+      "slug": "observador-de-alta-ganancia-con-zona-muerta-2020"
+    },
+    {
+      "title": "Optimal energy management in a standalone microgrid, with photovoltaic generation, short-term storage, and hydrogen production",
+      "link": "https://doi.org/10.3390/en13061454",
+      "authors": "Cecilia, A., Carroquino, J., Roda Serrat, V., Costa-Castelló, R., Barreras Toledo, F.M. (2020)",
+      "journal": "Energies",
+      "year": 2020,
+      "slug": "optimal-energy-management-in-a-standalone-microgrid-2020"
+    }
+  ],
+  "conferencePapers": [
+    {
+      "title": "Enhancing Observers through Deep Learning: Application to State of Charge Estimation in Vanadium Flow Batteries",
+      "link": "https://www.sciencedirect.com/science/article/pii/S240589632501482X",
+      "authors": "Clemente A., Puleston T., Cecilia A., Costa-Castelló R., Trilla L.",
+      "conference": "11th IFAC Symposium on Robust Control Design ROCOND 2025: Porto, Portugal, July 2-4, 2025",
+      "year": 2025
+    },
+    {
+      "title": "State of Charge Estimation of Metal Hydride Storage Tank Based on a Switched Observer",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11187213",
+      "authors": "Chen, M. Cecilia, A. , Na J. Batlle C. , Costa-Castelló R.",
+      "conference": "2025 European Control Conference (ECC), Thessaloniki, Greece, 2025, pp. 1973-1978",
+      "year": 2025
+    },
+    {
+      "title": "Chaotic masking protocol for secure communication and attack detection in remote estimation of cyber-physical systems",
+      "link": "https://doi.org/10.1016/j.ifacol.2024.10.146",
+      "authors": "Chen, T., Cecilia, A., Astolfi, D., Wang, L., Liu, Z., Su, H. (2024)",
+      "conference": "IFAC World Congress",
+      "year": 2024,
+      "slug": "chaotic-masking-2024"
+    },
+    {
+      "title": "Quadratic abstractions for k-contraction",
+      "link": "https://doi.org/10.1109/CDC56724.2024.10886370",
+      "authors": "Zoboli, S., Cecilia, A., Tarbouriech, S. (2024)",
+      "conference": "IEEE Conference on Decision and Control (CDC)",
+      "year": 2024,
+      "slug": "quadratic-kcontraction-cdc-2024"
+    },
+    {
+      "title": "A proportional-integral observer protocol for secure communication",
+      "link": "https://doi.org/10.1016/j.ifacol.2024.08.079",
+      "authors": "Cecilia, A., Costa-Castelló, R. (2024)",
+      "conference": "IFAC-PapersOnLine",
+      "year": 2024,
+      "slug": "a-proportional-integral-observer-protocol-for-secure-2024"
+    },
+    {
+      "title": "K-contraction analysis for discrete-time systems",
+      "link": "https://doi.org/10.1016/j.ifacol.2024.10.161",
+      "authors": "Zoboli, S., Cecilia, A. (2024)",
+      "conference": "IFAC-PapersOnLine",
+      "year": 2024,
+      "slug": "k-contraction-analysis-for-discrete-time-2024"
+    },
+    {
+      "title": "Kazantis-Kravaris-Luenberger observer for vanadium flow battery concentrations and side-reaction parameters joint estimation",
+      "link": "",
+      "authors": "Puleston, T.P., Cecilia, A., Costa-Castelló, R., Serra Prat, M. (2024)",
+      "conference": "",
+      "year": 2024,
+      "slug": "kazantis-kravaris-luenberger-observer-for-vanadium-2024"
+    },
+    {
+      "title": "LMI conditions for k-contraction analysis: a step towards design",
+      "link": "https://doi.org/10.1109/CDC49753.2023.10383436",
+      "authors": "Zoboli, S., Cecilia, A., Astolfi, D., Serres, U., Andrieu, V. (2023)",
+      "conference": "IEEE Conference on Decision and Control (CDC)",
+      "year": 2023,
+      "slug": "lmi-kcontraction-cdc-2023"
+    },
+    {
+      "title": "A masking protocol for private communication and attack detection in nonlinear observers",
+      "link": "https://doi.org/10.1109/CDC49753.2023.10383327",
+      "authors": "Cecilia, A., Astolfi, D., Costa-Castelló, R., Casadei, G., Nesic, D. (2023)",
+      "conference": "IEEE Conference on Decision and Control (CDC)",
+      "year": 2023,
+      "slug": "masking-nonlinear-observers-cdc-2023"
+    },
+    {
+      "title": "Estimación del estado de carga de baterías de  flujo redox con caudales desequilibrados",
+      "link": "https://doi.org/10.17979/spudc.9788497498418.0353",
+      "authors": "Clemente León, A., Cecilia, A., Costa-Castelló, R. (2022)",
+      "conference": "Jornadas de Automática",
+      "year": 2022,
+      "slug": "estimaci-n-del-estado-de-carga-de-2022"
+    },
+    {
+      "title": "SOC and diffusion rate estimation in redox flow batteries: an I&I-based high-gain observer approach",
+      "link": "https://doi.org/10.23919/ECC54610.2021.9654894",
+      "authors": "Clemente León, A., Cecilia, A., Costa-Castelló, R. (2021)",
+      "conference": "European Control Conference (ECC)",
+      "year": 2021,
+      "slug": "soc-diffusion-ecc-2021"
+    },
+    {
+      "title": "Library-based adaptive observation through a sparsity-promoting adaptive observer",
+      "link": "https://doi.org/10.23919/ECC54610.2021.9655070",
+      "authors": "Cecilia, A., Costa-Castelló, R. (2021)",
+      "conference": "European Control Conference (ECC)",
+      "year": 2021,
+      "slug": "library-based-adaptive-observation-through-a-sparsity-2021"
+    },
+    {
+      "title": "On state-estimation in weakly-observable scenarios and implicitly regularized observers",
+      "link": "https://doi.org/10.1109/CDC45484.2021.9682914",
+      "authors": "Cecilia, A., Costa-Castelló, R. (2021)",
+      "conference": "IEEE Conference on Decision and Control (CDC)",
+      "year": 2021,
+      "slug": "on-state-estimation-in-weakly-observable-scenarios-2021"
+    },
+    {
+      "title": "Estimación del estado de carga y coeficientes de difusión en baterías de flujo redox",
+      "link": "https://doi.org/10.17979/spudc.9788497498043.357",
+      "authors": "Clemente León, A., Cecilia, A., Costa-Castelló, R. (2021)",
+      "conference": "Jornadas de Automática",
+      "year": 2021,
+      "slug": "estimaci-n-del-estado-de-carga-y-2021"
+    },
+    {
+      "title": "Control no lineal adaptativo con identificación dispersa",
+      "link": "https://doi.org/10.17979/spudc.9788497498043.365",
+      "authors": "Domingo-Enrich, R., Cecilia, A., Costa-Castelló, R. (2021)",
+      "conference": "Jornadas de Automática",
+      "year": 2021,
+      "slug": "control-no-lineal-adaptativo-con-identificaci-n-2021"
+    },
+    {
+      "title": "PEMFC state and parameter estimation through a high-gain based adaptive observer",
+      "link": "https://doi.org/10.1016/j.ifacol.2020.12.1639",
+      "authors": "Cecilia, A., Serra Prat, M., Costa-Castelló, R. (2020)",
+      "conference": "IFAC-PapersOnLine",
+      "year": 2020,
+      "slug": "pemfc-state-and-parameter-estimation-through-a-2020"
+    },
+    {
+      "title": "Observador de alta ganancia con zona muerta para pilas de combustible PEM de cátodo abierto",
+      "link": "https://doi.org/10.17979/spudc.9788497497169.382",
+      "authors": "Cecilia, A., Costa-Castelló, R. (2019)",
+      "conference": "Jornadas de Automática",
+      "year": 2019,
+      "slug": "observador-de-alta-ganancia-con-zona-2019"
+    }
+  ],
+  "books": [
+    {
+      "title": "Advances in Nonlinear Observer Design for State and Parameter Estimation in Energy Systems",
+      "link": "https://doi.org/10.1007/978-3-031-38924-5",
+      "authors": "Cecilia, A. (2023)",
+      "publisher": "Springer Theses, Springer Cham, XIX, 221",
+      "year": 2023,
+      "slug": "book-cecilia-2023"
+    }
+  ],
+  "submittedPapers": [
+    {
+      "title": "Dynamic output-feedback design for generalized Lyapunov inequalities",
+      "link": "https://hal.science/hal-04738534v1/document",
+      "authors": "Zoboli S., Cecilia A., Tarbouriech S.",
+      "journal": "Automatica (under review)"
+    }
+  ]
+}

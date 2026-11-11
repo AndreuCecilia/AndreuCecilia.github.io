@@ -1,0 +1,44 @@
+[
+  {
+    "name": "ACROBA",
+    "grant": "(Spanish/EU grant)",
+    "institution": "UPC/INCIBE",
+    "role": "Participant",
+    "year": "2024-2025"
+  },
+  {
+    "name": "SINGLE",
+    "grant": "(Horizon Eurpe 2021/2027)",
+    "institution": "European Commission",
+    "role": "Participant",
+    "year": "2023-2026"
+  },
+  {
+    "name": "MASHED",
+    "grant": "(Spanish/EU grant)",
+    "institution": "UPC",
+    "role": "Participant",
+    "year": "2023-2024"
+  },
+  {
+    "name": "MAFALDA",
+    "grant": "(Spanish/EU grant)",
+    "institution": "UPC",
+    "role": "Participant",
+    "year": "2022-2024"
+  },
+  {
+    "name": "PTI+ TRANS-ENER",
+    "grant": "(Spanish/EU grant)",
+    "institution": "UPC",
+    "role": "Participant",
+    "year": "2021-2022"
+  },
+  {
+    "name": "DOVELAR",
+    "grant": "(Spanish/EU grant)",
+    "institution": "UPC",
+    "role": "Participant",
+    "year": "2019-2022"
+  }
+]
